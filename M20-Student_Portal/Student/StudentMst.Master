@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="StudentMst.Master.cs" Inherits="M20_Student_Portal.Student.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Student Dashboard</title>
+    <!--Style Sheet-->
+    <link rel="stylesheet" type="text/css" href="~/Assets/Style/Style.css" />
+    <!-- Favicons -->
+    <link href="../Assets/image/BV Logo.png" rel="icon" />
+    <link href="../Assets/image/BV Logo.png" rel="apple-touch-icon">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/Assets/image/BV Logo.png" Height="100px" Width="100px"/>
+            <asp:Label ID="Label1" runat="server" Text="Label" CssClass="MasterLabel"></asp:Label>
+            <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/Assets/image/Avatar.svg" Height="50px" Width="50px" OnClick="ImageButton2_Click" CssClass="Avatar"/>
+        </div>
+        <div class="MasterDIV">
+            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" CssClass="MasterLink">Profile</asp:LinkButton>
+            <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click" CssClass="MasterLink">Result</asp:LinkButton>
+            <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click" CssClass="MasterLink">Fees</asp:LinkButton>
+            <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton4_Click" CssClass="MasterLink">Attendance</asp:LinkButton>
+            <asp:LinkButton ID="LinkButton5" runat="server" OnClick="LinkButton5_Click" CssClass="MasterLink">Leave</asp:LinkButton>
+            <asp:LinkButton ID="LinkButton6" runat="server" CssClass="MasterLink" Visible="False">LinkButton</asp:LinkButton>
+            <asp:LinkButton ID="LinkButton7" runat="server" CssClass="MasterLink" Visible="False">LinkButton</asp:LinkButton>
+            <asp:LinkButton ID="LinkButton8" runat="server" CssClass="MasterLink" Visible="False">LinkButton</asp:LinkButton>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
