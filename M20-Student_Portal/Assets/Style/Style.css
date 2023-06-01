@@ -1,0 +1,110 @@
+﻿/*
+    Primary color:#5A81FA
+    Secondary color:#2C3D8F
+*/
+body {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:#F2F5FF;
+}
+/*----Login Page----*/
+.LoginHeader{
+    position:absolute;
+    top:50px;
+    left:500px;
+    height:150px;
+}
+
+.LoginBanner {
+    background: #5A81FA;
+    color:white;
+}
+/*---General Classes----*/
+.Head {
+    font-size: 60px;
+    text-align: center;
+}
+
+.Button {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #2C3D8F;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    color:white;
+}
+
+.Button:hover {
+   background: #5A81FA;
+   cursor:pointer;
+   border-radius:8px;
+}
+
+.Lable {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:right;
+}
+
+.Text {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*--------Master Page--------*/
+.Avatar{
+    position:absolute;
+    top:30px;
+    right:50px;
+}
+
+.MasterLabel {
+    position: absolute;
+    top: 50px;
+    right: 150px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.MasterLink {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    text-decoration:none;
+    padding:10px;
+}
+
+.MasterLink:hover {
+    background: #5A81FA;
+    cursor: pointer;
+}
+
+.MasterDIV {
+    background: #5A81FA;
+    color: white;
+    height: 30px;
+    padding-top: 10px;
+}
+
+
+
+/*----Auto generated----*/
+.auto-style1 {
+    width: 304px;
+}
+
+.auto-style3 {
+    width: 76px;
+}
+
+.auto-style4 {
+    width: 299px;
+}
+
+.auto-style5 {
+    position: absolute;
+    top: 50px;
+    left: 470px;
+}

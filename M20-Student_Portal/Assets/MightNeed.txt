@@ -1,0 +1,2 @@
+<asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage="Invalid ID" ForeColor="Red" ValidationExpression="^[a-zA-z0-9+_]+@banasthali.in+$"></asp:RegularExpressionValidator>
+<asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="TextBox2" ErrorMessage="Invalid password." ForeColor="Red" ValidationExpression="^[a-zA-Z0-9!@#$%^&amp;*]{8,}$"></asp:RegularExpressionValidator>
